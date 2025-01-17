@@ -15,7 +15,7 @@ Train PyTorch FasterRCNN models easily on any custom dataset. Choose between off
 * [Find blog posts/tutorials on DebuggerCafe](#Tutorials)
 
 ## Updates
-
+* **Jan 17 2025:** realtime inference on website
 * **August 28 2024:** SAHI image inference for all pretrained Torchvision Faster RCNN models integrated. [Find the script here](https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline/blob/main/sahi_inference.py).
 
 * Filter classes to visualize during inference using the `--classes` command line argument with space separated class indices from the dataset YAML file. 
