@@ -9,10 +9,10 @@ Train PyTorch FasterRCNN models easily on any custom dataset. Choose between off
 ![](readme_images/gif_1.gif)
 ## RUN
 Cách 1:
-Các bạn có thể clone repo này về. Open VSCode, run my_api.py :
+Các bạn có thể clone repo này về. Open VSCode, run ./onnx_web_inference_camera.py :
 ```
 cd fastercnn-pytorch-training-pipeline
-./onnx_web_inference_camera.py
+python3.11 ./onnx_web_inference_camera.py
 ```
 Cách 2:
 Trước khi dùng bất kì cmd nào trong docker nào, hãy run cmd dưới đây trước:
