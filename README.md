@@ -7,7 +7,31 @@ Train PyTorch FasterRCNN models easily on any custom dataset. Choose between off
 ***You can run a Faster RCNN model with Mini Darknet backbone and Mini Detection Head at more than 150 FPS on an RTX 3080***.
 
 ![](readme_images/gif_1.gif)
+## RUN
+Cách 1:
+Các bạn có thể clone repo này về. Open VSCode, run my_api.py :
+```
+cd fastercnn-pytorch-training-pipeline
+./onnx_web_inference_camera.py
+```
+Cách 2:
+Trước khi dùng bất kì cmd nào trong docker nào, hãy run cmd dưới đây trước:
+```
+export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin/"
+```
+Login Docker with jasoncaption as username
+```
+docker login -u jasoncaption
+```
 
+build image named jasoncaption/strawberry
+```
+docker build -f /Users/c/Downloads/CV-Number-plate-detection-and-recognition/source/Dockerfile -t jasoncaption/strawberry .
+```
+run image in a container named abcxyz
+```
+docker run --name abcxyz jasoncaption/strawberry
+```
 ## Get Started
 
 ​																								[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oFxPpBeE8SzSQq7BTUv28IIqQeiHHLdj?usp=sharing) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/sovitrath/custom-faster-rcnn-training-kaggle/notebook)
