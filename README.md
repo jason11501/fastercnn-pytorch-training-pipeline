@@ -26,7 +26,7 @@ docker login -u jasoncaption
 
 build image named jasoncaption/strawberry
 ```
-docker build -f /Users/c/Downloads/CV-Number-plate-detection-and-recognition/source/Dockerfile -t jasoncaption/strawberry .
+docker build -f ./Dockerfile -t jasoncaption/strawberry .
 ```
 run image in a container named abcxyz
 ```
